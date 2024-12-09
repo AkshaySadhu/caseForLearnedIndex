@@ -18,10 +18,10 @@ Steps to run the code:
 
 **3. Neural Networks: **
 
-**4. Hybrid Index: **    \ 
+**4. Hybrid Index: **   \
     1. You may run **hybridindex_latitude.py** to plot the scatter plot against the latitude dataset, using the hybrid index. For the latitude dataset, we observed that the mix of linear regression model as the root model along with 20 neural network models in the second layer yielded best results.\
     2. You may run the **hybridindex_lognormal.py** to plot the scatter plot against the lognormal dataset, using the hybrid index. For the lognormal dataset, we observed that the mix of random forest regression model as the root model along with 20 neural network models in the second layer yielded best results.\
-    You may test against the number of neural network models (by changing the **num_segments** variable in the code) in the second layer for comparitive analysis.\
+    You may test against the number of neural network models (by changing the **num_segments** variable in the code) in the second layer for comparitive analysis.
     
 
 **5. Spline Interpolation: **    \
