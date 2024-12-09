@@ -27,8 +27,8 @@ x = scaler.fit_transform(data['Integer'].values.reshape(-1, 1))
 y = data['Index'].values
 
 # Root Model: Random Forest Regressor
-num_segments = 20  # Reduce the number of segments for smoother results
-y_cdf = (y / max(y)) * (num_segments - 1)  # Scale indices to segment range
+num_segments = 20  
+y_cdf = (y / max(y)) * (num_segments - 1) 
 root_model = RandomForestRegressor(n_estimators=100, random_state=42)
 root_model.fit(x, y_cdf)
 
