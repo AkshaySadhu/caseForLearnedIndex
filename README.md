@@ -24,6 +24,9 @@ Steps to run the code:
       2. Piecewise polynomial: Run the linearRegression_rms.py. This runs the fit_piecewise_polynomial(X, y, ranges, max_rmse) function to get the perfect split for linear equations to get a piecewise polynomial which achieves the specified max_rmse (max root mean squared error). 
 
 **3. Neural Networks: **
+      1. 2 layer fully-connected Neural network: **NN.py**
+      2. Statistics on training, lookup time and model size **stats_gather.py**
+      3. Please change filenames to **dummyLognormal.csv** and **dummyLatitudes.csv** as required
 
 **4. Hybrid Index: **   \
     1. You may run **hybridindex_latitude.py** to plot the scatter plot against the latitude dataset, using the hybrid index. For the latitude dataset, we observed that the mix of linear regression model as the root model along with 20 neural network models in the second layer yielded best results.\
