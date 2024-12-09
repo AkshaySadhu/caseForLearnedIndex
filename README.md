@@ -20,8 +20,8 @@ Steps to run the code:
 
 **4. RMI: **
 
-**5. Spline Interpolation: **    
-    1. Basic Cubic Spline: You can run **splineInterpolation.py** to get a basic fit (and visualisation) of a basic cubic spline interpolation, where each point is a knot. 
-    2. Cubic Spline with Metrics (lookup time, model space, training time): Run **splineInteroplation2.py**. Here too all points are used as knots
-    3. Spline interpolation with fewer knots: Run **splineInterpolation3.py**.
+**5. Spline Interpolation: **    \
+    1. Basic Cubic Spline: You can run **splineInterpolation.py** to get a basic fit (and visualisation) of a basic cubic spline interpolation, where each point is a knot. \
+    2. Cubic Spline with Metrics (lookup time, model space, training time): Run **splineInteroplation2.py**. Here too all points are used as knots \
+    3. Spline interpolation with fewer knots: Run **splineInterpolation3.py**. \
     4. Spline interpolation with lognormal data: Run **splineInterpolationWithLognormal.py**.
