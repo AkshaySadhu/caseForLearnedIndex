@@ -30,7 +30,7 @@ def measure_prediction_time(cs, x_new):
     end_time = time.time()
     return end_time - start_time, y_new
 
-df = pd.read_csv('sydneyUniqueSortedLatitudes.csv')
+df = pd.read_csv('dummyLatitudes.csv')
 
 sizes = [10000, 100000, 1000000]
 results = {}

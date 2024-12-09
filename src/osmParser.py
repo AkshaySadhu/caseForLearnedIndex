@@ -25,8 +25,6 @@ data = {
 df = pd.DataFrame(data)
 df.to_csv('sydneyUniqueUnsortedLatitudes.csv', index=False)
 
-
-
 print("Total tuples: ", len(longitudes))
 # print(len(latitudes))
 
@@ -54,12 +52,6 @@ df.to_csv('sydneyUniqueSortedLatitudes.csv', index=False)
 
 print(len(data['latitude']))
 
-
-
-
-
-
-
 unique_lat = len(set(latitudes))
 unique_long = len(set(longitudes))
 
@@ -79,7 +71,6 @@ print("Duplicate latitudes: ", len(latitudes)-unique_lat)
 # end_time = time.perf_counter()
 
 
-# # print(f"Nodes with latitude between {minLat} and {maxLat}:")
 # # for long in results:
 # #     print(f"Latitude: {long}")
 # elapsed_time = end_time - start_time
