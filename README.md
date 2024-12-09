@@ -1,4 +1,4 @@
-**Requirements** \
+**REQUIREMENTS** 
 1. You will need Python 3.9+ installed on your system
 2. To install the packages required run ```pip install -r src/requirements.txt```
 
