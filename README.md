@@ -12,9 +12,12 @@ Steps to run the code:
 **ML MODELS**
 
 
-**1. B-Trees: **
-
-**2. Linear Regression: **
+**1. B-Trees: **  \
+      1. B-Trees on Lognormal Data: Run btree.py. We will always get a 0 error on B-Trees implementation for this. This gives you the exact value of the index for the input key
+      2. B-Trees for Latitude data: Run btree_coordinates.py. 
+**2. Linear Regression: **  \
+      1. For the first version of linear regression, where we had 3 different linear models based on the range of the keys. Run linearRegression.py for lognormal data. This trains on the full dataset and tests on 10k, 100k and 1M keys and plots predicted vs ground truth graphs for the test. To get the same plots for the latitude dataset run linearRegression_coordinates.py.
+      2. Piecewise polynomial: Run the linearRegression_rms.py. This runs the fit_piecewise_polynomial(X, y, ranges, max_rmse) function to get the perfect split for linear equations to get a piecewise polynomial which achieves the specified max_rmse (max root mean squared error). 
 
 **3. Neural Networks: **
 
