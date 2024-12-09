@@ -80,8 +80,6 @@ def load_data(file_path, num_rows=None):
     with open(file_path, mode="r") as file:
         reader = csv.reader(file)
         next(reader)
-        for i in range(0, 300000):
-            next(reader)
         for i, row in enumerate(reader):
             if num_rows and i >= num_rows:
                 break
@@ -120,7 +118,7 @@ for size in sizes:
     print(f"Mean Squared Error (Training Loss): {mse:.4f}")
 
     # Plot the results for the current size
-    plt.figure(figsize=(50, 10))
+    plt.figure(figsize=(10, 6))
     plt.scatter(test_latitudes, ground_truth_indices, color="blue", label="Ground Truth")
     plt.scatter(test_latitudes, predicted_indices, color="red", label="Predicted", alpha=0.6)
     plt.xlabel("Latitude")
